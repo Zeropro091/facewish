@@ -1,0 +1,6 @@
+{
+  "name": "FaceWish — AI Skin Analysis & Skincare Recommendation",
+  "description": "Kenali kondisi kulitmu dengan teknologi AI Skin Scan, dapatkan rekomendasi skincare, cek kandungan bahan aktif (Ingredient Checker), dan saran makanan bergizi yang sesuai dengan kebutuhan kulitmu.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

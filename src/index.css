@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F6F5FF;
+    color: #1E1B4B;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@keyframes scanLaser {
+  0% {
+    transform: translateY(0%);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translateY(320px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 0.85;
+  }
+}
+
+.animate-scan-laser {
+  animation: scanLaser 2.6s ease-in-out infinite;
+}
